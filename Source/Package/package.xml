@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
+    <file>
+      <guid>SpectrumColorPicker.controller.js</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker</orgPath>
+      <orgName>SpectrumColorPicker.controller.js</orgName>
+    </file>
+    <file>
+      <guid>SpectrumColorPicker.html</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker</orgPath>
+      <orgName>SpectrumColorPicker.html</orgName>
+    </file>
+    <file>
+      <guid>spectrum.js</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lib/spectrum</orgPath>
+      <orgName>spectrum.js</orgName>
+    </file>
+    <file>
+      <guid>spectrum.css</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lib/spectrum</orgPath>
+      <orgName>spectrum.css</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Spectrum Color Picker</name>
+      <version>0.0.2</version>
+      <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+      <url>http://www.digitalsmith.com.au</url>
+      <requirements>
+        <major>7</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Digitalsmith</name>
+      <website>http://www.digitalsmith.com.au</website>
+    </author>
+    <readme>
+      <![CDATA[Creates an "unbound" colour picker based on the Spectrum jquery plugin. By unbound, we mean that colours aren't pre-defined, allowing the user to choose a color of their own.
+
+For more information about Spectrum, go here: http://bgrins.github.io/spectrum/
+
+If you want to customise the settings for Spectrum, see the file in 
+
+/App_Plugins/SpectrumColorPicker/SpectrumColorPicker.controller.js
+
+and set the Spectrum options in the directive.
+
+Updates:
+
+Version 0.0.2:
+Cleaned and simplified up Controller and removed Directive to make it more reliable.
+
+]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes>
+    <DataType Name="Spectrum Color Picker" Id="Spectrum.Color.Picker" Definition="433FE64C-1A7C-428F-A95D-91E2DA009A93" DatabaseType="Nvarchar">
+      <PreValues />
+    </DataType>
+  </DataTypes>
+</umbPackage>
