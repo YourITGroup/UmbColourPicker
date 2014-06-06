@@ -24,5 +24,9 @@ Updates:
 
 ###Version 0.0.2:
 
-* Cleaned and simplified up Controller and removed Directive to make it more reliable.
+* Cleaned up and simplified Controller and removed Directive to make it more reliable.
+
+###Version 0.0.3:
+
+* Fixed problem where the color picker wouldn't be initiated correctly unless the site was refreshed.
 

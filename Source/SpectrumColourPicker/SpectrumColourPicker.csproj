@@ -58,6 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Plugins\SpectrumColorPicker\package.manifest" />
+    <Content Include="SpectrumColourPicker.nuspec">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
