@@ -4,12 +4,16 @@
             alias: "Spectrum.Color.Picker",
             name: "Spectrum Color Picker",
             editor: {
-                view: "~/App_Plugins/SpectrumColorPicker/SpectrumColorPicker.html?v=0.0.3"
+                view: "~/App_Plugins/SpectrumColorPicker/SpectrumColorPicker.html?v=0.0.4"
             }
         }
     ]
     ,
     javascript: [
-        "~/App_Plugins/SpectrumColorPicker/SpectrumColorPicker.controller.js?v=0.0.3"
+        "~/App_Plugins/SpectrumColorPicker/SpectrumColorPicker.controller.js?v=0.0.4"
+    ]
+    ,
+    css: [
+        "~/App_Plugins/SpectrumColorPicker/lib/spectrum/spectrum.css"
     ]
 }

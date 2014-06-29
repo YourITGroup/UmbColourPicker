@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A6A0F4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Umbraco Package", "Umbraco Package", "{80A9F12F-11BA-41F5-83A8-B988ECC3117E}"
 	ProjectSection(SolutionItems) = preProject
-		Package\package.xml = Package\package.xml
+		Package\6390AFFD-0056-49A5-9597-AA9B0FAA2FB6\package.xml = Package\6390AFFD-0056-49A5-9597-AA9B0FAA2FB6\package.xml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoTestBed", "UmbracoTestBed\UmbracoTestBed.csproj", "{2B2AF396-3707-41F7-A24D-AEBAA5A57625}"
