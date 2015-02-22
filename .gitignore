@@ -5,3 +5,7 @@
 /Source/packages
 /Source/SpectrumColourPicker/bin
 /Source/SpectrumColourPicker/obj/Debug
+/Source/UmbracoTestBed/App_Data/Logs
+/Source/UmbracoTestBed/App_Data/NuGetBackup
+/Source/UmbracoTestBed/obj/Debug
+/Source/UmbracoTestBed/media
