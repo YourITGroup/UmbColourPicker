@@ -1,11 +1,11 @@
 ﻿/*
  * SpectrumColorPicker
  * 
- * by Robert Foster/Digitalsmith
- * robert@ditalsmith.com.au
+ * by Robert Foster/KØBEN digital
+ * robert@koben.com.au
  * @robertjf72
  * 
- * Version 0.0.4
+ * Version 0.0.5
  */
 angular.module("umbraco").controller("ds.SpectrumColorPicker.Controller",
     function spectrumColorPicker($scope, $timeout, assetsService, angularHelper, $element) {
@@ -17,10 +17,11 @@ angular.module("umbraco").controller("ds.SpectrumColorPicker.Controller",
             elem.val($scope.model.value);
             elem.spectrum({
                 showInitial: true,
-                preferredFormat: "name",
+                preferredFormat: $scope.model.config.enableTransparency ? "rgb" : "name",
                 showInput: true,
                 showPalette: true,
                 palette: [],
+                showAlpha: $scope.model.config.enableTransparency,
                 //localStorageKey: "spectrum.SpectrumColorPickerPalette", // Any Spectrum with the same string will share selection
                 allowEmpty: true
             });

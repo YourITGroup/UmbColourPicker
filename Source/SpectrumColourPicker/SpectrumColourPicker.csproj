@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -105,7 +106,19 @@
   </ProjectExtensions>
   <PropertyGroup>
     <PostBuildEvent>rem cd "$(ProjectDir)"
-rem xcopy App_Plugins\SpectrumColorPicker ..\UmbracoTestBed\App_Plugins\SpectrumColorPicker /Y /I /S /E</PostBuildEvent>
+rem xcopy App_Plugins\SpectrumColorPicker ..\UmbracoTestBed\App_Plugins\SpectrumColorPicker /Y /I /S /E
+
+if $(ConfigurationName) == Release (
+  echo Building NuGet Package...
+  cd "$(ProjectDir)"
+  "$(SolutionDir).nuget\NuGet.exe" pack -Verbosity detailed -NonInteractive -Prop Configuration=Release
+) else (
+  echo Skipping NuGet Package.
+)</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>cd "$(ProjectDir)"
+del *.nupkg</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

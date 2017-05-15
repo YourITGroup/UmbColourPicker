@@ -5,7 +5,16 @@
             name: "Spectrum Color Picker",
             editor: {
                 view: "~/App_Plugins/SpectrumColorPicker/SpectrumColorPicker.html"
-            }
+            },
+			prevalues: {
+				fields: [
+				{
+					label: "Enable Transparency",
+					key: "enableTransparency",
+					view: "boolean"
+				}
+				]
+			}
         }
     ]
     ,

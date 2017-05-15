@@ -22,11 +22,19 @@ TODO:
 Updates:
 --------
 
-###Version 0.0.2:
+### Version 0.0.2:
 
 * Cleaned up and simplified Controller and removed Directive to make it more reliable.
 
-###Version 0.0.3:
+### Version 0.0.3:
 
 * Fixed problem where the color picker wouldn't be initiated correctly unless the site was refreshed.
 
+### Version 0.0.3:
+* Fixed problem where the color picker wouldn't be initiated correctly unless the site was refreshed.
+
+### Version 0.0.4:
+* Color should now be properly initialising again.
+
+### Version 0.0.5:
+* Added the option to specify a transparency when choosing the color.

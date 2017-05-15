@@ -5,16 +5,18 @@
     <version>$version$</version>
     <title>SpectrumColourPicker for Umbraco 7.x</title>
     <authors>Robert Foster</authors>
-    <owners>Digitalsmith &amp; the Umbraco Community</owners>
+    <owners>KØBEN digital &amp; the Umbraco Community</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       <![CDATA[Free Colour Picker property for Umbraco]]>
     </description>
     <summary>Free Colour Picker property for Umbraco</summary>
-    <copyright>Copyright 2014 Digitalsmith Pty Ltd</copyright>
+    <copyright>Copyright 2017 KOBEN digital Pty Ltd</copyright>
     <language />
     <releaseNotes>
-      <![CDATA[]]>
+      <![CDATA[
+      0.0.5: Added the option to specify a transparency when choosing the color.
+      ]]>
     </releaseNotes>
     <iconUrl>https://digitalsmithcdn.blob.core.windows.net/media/Digitalsmith-mark-32.png</iconUrl>
     <tags>Umbraco Colour Picker</tags>
