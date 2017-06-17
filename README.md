@@ -38,3 +38,6 @@ Updates:
 
 ### Version 0.0.5:
 * Added the option to specify a transparency when choosing the color.
+
+### Version 0.0.6:
+* Finally added support for Umbraco installed in virtual directories.

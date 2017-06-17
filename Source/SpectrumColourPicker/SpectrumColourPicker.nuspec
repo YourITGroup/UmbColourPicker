@@ -15,10 +15,12 @@
     <language />
     <releaseNotes>
       <![CDATA[
+      0.0.6: Finally added support for Umbraco installed in virtual directories.
+
       0.0.5: Added the option to specify a transparency when choosing the color.
       ]]>
     </releaseNotes>
-    <iconUrl>https://digitalsmithcdn.blob.core.windows.net/media/Digitalsmith-mark-32.png</iconUrl>
+    <iconUrl>https://koben.blob.core.windows.net/assets/Koben_32.png</iconUrl>
     <tags>Umbraco Colour Picker</tags>
   </metadata>
 </package>

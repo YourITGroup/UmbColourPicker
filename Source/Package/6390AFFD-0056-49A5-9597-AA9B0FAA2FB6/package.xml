@@ -66,7 +66,11 @@ and set the Spectrum options in the directive.</p>
 * Color should now be properly initialising again.<br />
 
 <b>Version 0.0.5:</b><br />
-* Added the option to specify a transparency when choosing the color.</p>
+* Added the option to specify a transparency when choosing the color.
+
+<b>Version 0.0.6:</b><br />
+* Finally added support for Umbraco installed in virtual directories.
+</p>
 ]]>
     </readme>
   </info>
