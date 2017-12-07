@@ -41,3 +41,6 @@ Updates:
 
 ### Version 0.0.6:
 * Finally added support for Umbraco installed in virtual directories.
+
+### Version 0.0.7:
+* Added language support, based on umbracos langs and upgraded spectrum from version 1.2.0 to 1.8.0. Also added format config option, so rgba can be used.
