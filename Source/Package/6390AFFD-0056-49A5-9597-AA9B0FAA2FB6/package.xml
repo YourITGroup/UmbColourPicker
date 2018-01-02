@@ -26,11 +26,101 @@
       <orgPath>/App_Plugins/SpectrumColorPicker/lib/spectrum</orgPath>
       <orgName>spectrum.css</orgName>
     </file>
+    <file>
+      <guid>prefferedFormat.html</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lib/prevalue</orgPath>
+      <orgName>prefferedFormat.html</orgName>
+    </file>    
+    <file>
+      <guid>da-DK.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>da-DK.xml</orgName>
+    </file>
+    <file>
+      <guid>de-DE.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>de-DE.xml</orgName>
+    </file>
+    <file>
+      <guid>en-GB.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>en-GB.xml</orgName>
+    </file>
+    <file>
+      <guid>en-US.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>en-US.xml</orgName>
+    </file>
+    <file>
+      <guid>es-ES.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>es-ES.xml</orgName>
+    </file>
+    <file>
+      <guid>fr-FR.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>fr-FR.xml</orgName>
+    </file>
+    <file>
+      <guid>he-IL.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>he-IL.xml</orgName>
+    </file>
+    <file>
+      <guid>it-IT.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>it-IT.xml</orgName>
+    </file> 
+    <file>
+      <guid>ja-JP.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>ja-JP.xml</orgName>
+    </file>
+    <file>
+      <guid>nl-NL.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>nl-NL.xml</orgName>
+    </file>
+    <file>
+      <guid>pl-PL.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>pl-PL.xml</orgName>
+    </file>
+    <file>
+      <guid>pt-BR.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>pt-BR.xml</orgName>
+    </file>
+    <file>
+      <guid>ru-RU.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>ru-RU.xml</orgName>
+    </file>
+    <file>
+      <guid>sv-SE.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
+      <orgName>sv-SE.xml</orgName>
+    </file>
+    <file>
+      <guid>tr-TR.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang/da-DK</orgPath>
+      <orgName>tr-TR.xml</orgName>
+    </file>
+    <file>
+      <guid>zh-CN.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang/da-DK</orgPath>
+      <orgName>zh-CN.xml</orgName>
+    </file>
+    <file>
+      <guid>zh-TW.xml</guid>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang/da-DK</orgPath>
+      <orgName>zh-TW.xml</orgName>
+    </file>    
   </files>
   <info>
     <package>
       <name>Spectrum Color Picker</name>
-      <version>0.0.5</version>
+      <version>0.0.7</version>
       <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
       <url>https://github.com/robertjf/UmbColourPicker</url>
       <requirements>
@@ -70,6 +160,10 @@ and set the Spectrum options in the directive.</p>
 
 <b>Version 0.0.6:</b><br />
 * Finally added support for Umbraco installed in virtual directories.
+</p>
+
+<b>Version 0.0.7:</b><br />
+* Added language support, based on umbracos langs and upgraded spectrum from version 1.2.0 to 1.8.0. Also added format config option, so rgba can be used.
 </p>
 ]]>
     </readme>
