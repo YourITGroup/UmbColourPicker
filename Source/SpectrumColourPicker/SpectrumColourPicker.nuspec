@@ -11,10 +11,13 @@
       <![CDATA[Free Colour Picker property for Umbraco]]>
     </description>
     <summary>Free Colour Picker property for Umbraco</summary>
-    <copyright>Copyright 2017 KOBEN digital Pty Ltd</copyright>
+    <copyright>Copyright 2018 Robert Foster</copyright>
     <language />
     <releaseNotes>
       <![CDATA[
+      
+      0.0.7 Added language support, based on umbracos langs and upgraded spectrum from version 1.2.0 to 1.8.0. Also added format config option, so rgba can be used.
+
       0.0.6: Finally added support for Umbraco installed in virtual directories.
 
       0.0.5: Added the option to specify a transparency when choosing the color.

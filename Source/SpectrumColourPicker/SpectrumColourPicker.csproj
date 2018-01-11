@@ -20,6 +20,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,6 +59,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\da-DK.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\de-DE.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\en-GB.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\en-US.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\es-ES.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\fr-FR.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\he-IL.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\it-IT.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\ja-JP.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\nl-NL.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\pl-PL.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\pt-BR.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\ru-RU.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\sv-SE.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\tr-TR.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\zh-CN.xml" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lang\zh-TW.xml" />
     <Content Include="App_Plugins\SpectrumColorPicker\lib\prevalue\prefferedFormat.html" />
     <Content Include="App_Plugins\SpectrumColorPicker\package.manifest" />
     <Content Include="SpectrumColourPicker.nuspec">
@@ -80,9 +98,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Plugins\SpectrumColorPicker\lang\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
