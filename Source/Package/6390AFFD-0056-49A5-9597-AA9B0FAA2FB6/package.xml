@@ -103,17 +103,17 @@
     </file>
     <file>
       <guid>tr-TR.xml</guid>
-      <orgPath>/App_Plugins/SpectrumColorPicker/lang/da-DK</orgPath>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang/</orgPath>
       <orgName>tr-TR.xml</orgName>
     </file>
     <file>
       <guid>zh-CN.xml</guid>
-      <orgPath>/App_Plugins/SpectrumColorPicker/lang/da-DK</orgPath>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang/</orgPath>
       <orgName>zh-CN.xml</orgName>
     </file>
     <file>
       <guid>zh-TW.xml</guid>
-      <orgPath>/App_Plugins/SpectrumColorPicker/lang/da-DK</orgPath>
+      <orgPath>/App_Plugins/SpectrumColorPicker/lang/</orgPath>
       <orgName>zh-TW.xml</orgName>
     </file>    
   </files>
