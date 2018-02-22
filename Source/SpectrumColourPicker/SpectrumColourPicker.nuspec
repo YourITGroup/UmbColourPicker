@@ -8,7 +8,17 @@
     <owners>KØBEN digital &amp; the Umbraco Community</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-      <![CDATA[Free Colour Picker property for Umbraco]]>
+      <![CDATA[
+Creates an "unbound" colour picker based on the Spectrum jquery plugin. By unbound, we mean that colours aren't pre-defined, allowing the user to choose a color of their own.
+
+For more information about Spectrum, go here: http://bgrins.github.io/spectrum/
+
+If you want to customise the settings for Spectrum, see the file in 
+
+/App_Plugins/SpectrumColorPicker/SpectrumColorPicker.controller.js
+
+and set the Spectrum options in the directive.
+]]>
     </description>
     <summary>Free Colour Picker property for Umbraco</summary>
     <copyright>Copyright 2018 Robert Foster</copyright>
@@ -16,7 +26,7 @@
     <releaseNotes>
       <![CDATA[
       
-      0.0.7 Added language support, based on umbracos langs and upgraded spectrum from version 1.2.0 to 1.8.0. Also added format config option, so rgba can be used.
+      0.0.7: Added language support, based on umbracos langs and upgraded spectrum from version 1.2.0 to 1.8.0. Also added format config option, so rgba can be used.
 
       0.0.6: Finally added support for Umbraco installed in virtual directories.
 
@@ -26,4 +36,10 @@
     <iconUrl>https://koben.blob.core.windows.net/assets/Koben_32.png</iconUrl>
     <tags>Umbraco Colour Picker</tags>
   </metadata>
+  <files>
+    <file src="App_Plugins\SpectrumColorPicker\*.*" target="content\App_Plugins\SpectrumColorPicker" />
+    <file src="App_Plugins\SpectrumColorPicker\lang\*.*" target="content\App_Plugins\SpectrumColorPicker\lang" />
+    <file src="App_Plugins\SpectrumColorPicker\lib\prevalue\*.*" target="content\App_Plugins\SpectrumColorPicker\lib\prevalue" />
+    <file src="App_Plugins\SpectrumColorPicker\lib\spectrum\*.*" target="content\App_Plugins\SpectrumColorPicker\lib\spectrum" />
+  </files>
 </package>

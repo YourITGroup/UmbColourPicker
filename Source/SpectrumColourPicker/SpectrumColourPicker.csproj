@@ -76,7 +76,7 @@
     <Content Include="App_Plugins\SpectrumColorPicker\lang\tr-TR.xml" />
     <Content Include="App_Plugins\SpectrumColorPicker\lang\zh-CN.xml" />
     <Content Include="App_Plugins\SpectrumColorPicker\lang\zh-TW.xml" />
-    <Content Include="App_Plugins\SpectrumColorPicker\lib\prevalue\prefferedFormat.html" />
+    <Content Include="App_Plugins\SpectrumColorPicker\lib\prevalue\preferredFormat.html" />
     <Content Include="App_Plugins\SpectrumColorPicker\package.manifest" />
     <Content Include="SpectrumColourPicker.nuspec">
       <SubType>Designer</SubType>

@@ -13,12 +13,6 @@ If you want to customise the settings for Spectrum, see the file in
 
 and set the Spectrum options in the directive.
 
-TODO:
------
-1. Add Prevalues for various Spectrum options
-2. Remove Spectrum library in favour of the version now included in Umbraco.
-3. Create the Package on build (manifest is there, just need to add the build action and supporting libraries etc.)
-
 Updates:
 --------
 
@@ -43,9 +37,10 @@ Updates:
 * Finally added support for Umbraco installed in virtual directories.
 
 ### Version 0.0.7:
-* Added language support, based on umbracos langs and upgraded spectrum from version 1.2.0 to 1.8.0. Also added format config option, so rgba can be used.
+* Added language support, based on umbracos langs and upgraded spectrum from version 1.2.0 to 1.8.0.
+* Also added format config option, so rgba can be used.
 
 ACKNOWLEGEMENTS:
 ----------------
 
-Thanks goes out to Bo Jacobsen (Emetico) for the language support and format config option.
+Thanks goes out to Bo Jacobsen (Emetico) for the language support and format config option in version 0.0.7.

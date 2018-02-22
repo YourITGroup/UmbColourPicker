@@ -15,15 +15,15 @@
 				},
 				{
 					label: "Preferred Format",
-					description: "Choose what format the color should be selected/displayed in. Rgb is automatic selected if transparency is selected.",
-					key: "prefferedFormat",
-					view: "~/App_Plugins/SpectrumColorPicker/lib/prevalue/prefferedFormat.html"
+					description: "Choose what format the color should be selected/displayed in. RGBA is used by default if transparency is selected.",
+					key: "preferredFormat",
+					view: "~/App_Plugins/SpectrumColorPicker/lib/prevalue/preferredFormat.html"
 				}
 				]
 			},
 			defaultConfig: {
 				enableTransparency: "0",
-				prefferedFormat: "hex"
+				preferredFormat: "hex"
 			}
         }
     ]
