@@ -24,9 +24,6 @@ Updates:
 
 * Fixed problem where the color picker wouldn't be initiated correctly unless the site was refreshed.
 
-### Version 0.0.3:
-* Fixed problem where the color picker wouldn't be initiated correctly unless the site was refreshed.
-
 ### Version 0.0.4:
 * Color should now be properly initialising again.
 
