@@ -27,10 +27,10 @@
       <orgName>spectrum.css</orgName>
     </file>
     <file>
-      <guid>prefferedFormat.html</guid>
+      <guid>preferredFormat.html</guid>
       <orgPath>/App_Plugins/SpectrumColorPicker/lib/prevalue</orgPath>
-      <orgName>prefferedFormat.html</orgName>
-    </file>    
+      <orgName>preferredFormat.html</orgName>
+    </file>
     <file>
       <guid>da-DK.xml</guid>
       <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
@@ -70,7 +70,7 @@
       <guid>it-IT.xml</guid>
       <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
       <orgName>it-IT.xml</orgName>
-    </file> 
+    </file>
     <file>
       <guid>ja-JP.xml</guid>
       <orgPath>/App_Plugins/SpectrumColorPicker/lang</orgPath>
@@ -115,7 +115,7 @@
       <guid>zh-TW.xml</guid>
       <orgPath>/App_Plugins/SpectrumColorPicker/lang/</orgPath>
       <orgName>zh-TW.xml</orgName>
-    </file>    
+    </file>
   </files>
   <info>
     <package>
@@ -135,7 +135,7 @@
     </author>
     <readme>
       <![CDATA[
-<p>Creates an "unbound" colour picker based on the Spectrum jquery plugin. 
+<p>Creates an "unbound" colour picker based on the Spectrum jquery plugin.
 By unbound, we mean that colours aren't pre-defined, allowing the user to choose a color of their own.</p>
 <p>For more information about Spectrum, go here: <a href="http://bgrins.github.io/spectrum/" target="_blank">http://bgrins.github.io/spectrum/</a></p>
 <p>If you want to customise the settings for Spectrum, see the file in<br />
