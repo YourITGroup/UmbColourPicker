@@ -1,5 +1,4 @@
-UmbColourPicker
-===============
+# UmbColourPicker
 
 Nuget Package: 
 [![NuGet release](https://img.shields.io/nuget/v/SpectrumColourPicker.svg)](https://www.nuget.org/packages/SpectrumColourPicker/)
@@ -20,8 +19,7 @@ If you want to customise the settings for Spectrum, see the file in
 
 and set the Spectrum options in the directive.
 
-Updates:
---------
+## Updates:
 
 ### Version 0.0.2:
 
@@ -44,7 +42,6 @@ Updates:
 * Added language support, based on umbracos langs and upgraded spectrum from version 1.2.0 to 1.8.0.
 * Also added format config option, so rgba can be used.
 
-ACKNOWLEGEMENTS:
-----------------
+## ACKNOWLEGEMENTS:
 
-Thanks goes out to Bo Jacobsen (Emetico) for the language support and format config option in version 0.0.7.
+Thanks goes out to Bo Jacobsen (Emetico) for the language support and format config option in version 0.0.7 and Simon Eldevig (simoneldevig)
