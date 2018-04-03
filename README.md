@@ -2,8 +2,8 @@ UmbColourPicker
 ===============
 
 Nuget Package: 
-[![NuGet release](https://img.shields.io/nuget/v/SpectrumColorPicker.svg)](https://www.nuget.org/packages/SpectrumColorPicker/)
-[![NuGet release](https://img.shields.io/nuget/dt/SpectrumColorPicker.svg)](https://www.nuget.org/packages/SpectrumColorPicker/)
+[![NuGet release](https://img.shields.io/nuget/v/SpectrumColourPicker.svg)](https://www.nuget.org/packages/SpectrumColourPicker/)
+[![NuGet release](https://img.shields.io/nuget/dt/SpectrumColourPicker.svg)](https://www.nuget.org/packages/SpectrumColourPicker/)
 
 Umbraco Package:
 [![Our Umbraco project page](https://img.shields.io/badge/our-umbraco-orange.svg)](https://our.umbraco.org/projects/backoffice-extensions/spectrum-colour-picker) 
