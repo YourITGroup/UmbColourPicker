@@ -1,10 +1,10 @@
 ﻿/*
  * SpectrumColorPicker
- * 
+ *
  * by Robert Foster/KØBEN digital
  * robert@koben.com.au
  * @robertjf72
- * 
+ *
  * Version 0.0.7
  */
 angular.module("umbraco").controller("ds.SpectrumColorPicker.Controller",
@@ -33,7 +33,7 @@ angular.module("umbraco").controller("ds.SpectrumColorPicker.Controller",
         // Checking boolean and makeing sure that rgb is selected if transparency is enabled.
         $scope.model.config.enableTransparency = convertToBoolean($scope.model.config.enableTransparency);
         if ($scope.model.config.enableTransparency) {
-            $scope.model.config.prefferedFormat = "rgb";
+            $scope.model.config.preferredFormat = "rgb";
         }
 
         assetsService.loadJs(
@@ -47,14 +47,14 @@ angular.module("umbraco").controller("ds.SpectrumColorPicker.Controller",
                 togglePaletteLessText: $scope.lessText,
                 clearText: $scope.clearText,
                 noColorSelectedText: $scope.selectedText,
-                preferredFormat: $scope.model.config.prefferedFormat,
+                preferredFormat: $scope.model.config.preferredFormat,
                 showAlpha: $scope.model.config.enableTransparency, // Has to be true/false. will not accept null.
-                showInitial: true,             
+                showInitial: true,
                 showInput: true,
                 showPalette: true,
                 allowEmpty: true,
-                palette: [],               
-                //localStorageKey: "spectrum.SpectrumColorPickerPalette", // Any Spectrum with the same string will share selection             
+                palette: [],
+                //localStorageKey: "spectrum.SpectrumColorPickerPalette", // Any Spectrum with the same string will share selection
                 change: function (color) {
                     angularHelper.safeApply($scope, function () {
                         // when a color is changed, update the model
