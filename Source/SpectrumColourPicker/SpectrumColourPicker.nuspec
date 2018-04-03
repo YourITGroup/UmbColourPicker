@@ -26,6 +26,8 @@ and set the Spectrum options in the directive.
     <releaseNotes>
       <![CDATA[
       
+      1.0.0.0: Stable Release!  Fixes typo with preferredFormat prevalue option which *may break previous version*
+      
       0.0.7: Added language support, based on umbracos langs and upgraded spectrum from version 1.2.0 to 1.8.0. Also added format config option, so rgba can be used.
 
       0.0.6: Finally added support for Umbraco installed in virtual directories.
