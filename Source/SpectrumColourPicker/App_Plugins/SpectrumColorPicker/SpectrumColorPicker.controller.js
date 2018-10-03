@@ -10,24 +10,21 @@
 angular.module("umbraco").controller("ds.SpectrumColorPicker.Controller",
     function spectrumColorPicker($scope, $timeout, assetsService, angularHelper, $element, localizationService) {
 
-        // Initialize text for specifik umbraco user language. Only original spectrum langs are used.
-        localizationService.localize("scp_cancelText").then(function (value) {
-            $scope.cancelText = value;
-        });
-        localizationService.localize("scp_chooseText").then(function (value) {
-            $scope.chooseText = value;
-        });
-        localizationService.localize("scp_togglePaletteMoreText").then(function (value) {
-            $scope.moreText = value;
-        });
-        localizationService.localize("scp_togglePaletteLessText").then(function (value) {
-            $scope.lessText = value;
-        });
-        localizationService.localize("scp_clearText").then(function (value) {
-            $scope.clearText = value;
-        });
-        localizationService.localize("scp_noColorSelectedText").then(function (value) {
-            $scope.selectedText = value;
+        // Initialize text for specific umbraco user language. Only original spectrum langs are used.
+        localizationService.localizeMany([
+            "scp_cancelText",
+            "scp_chooseText",
+            "scp_togglePaletteMoreText",
+            "scp_togglePaletteLessText",
+            "scp_clearText",
+            "scp_noColorSelectedText"
+        ]).then(function (data) {
+            $scope.cancelText = data[0];
+            $scope.chooseText = data[1];
+            $scope.moreText = data[2];
+            $scope.lessText = data[3];
+            $scope.clearText = data[4];
+            $scope.selectedText = data[5];
         });
 
         // Checking boolean and makeing sure that rgb is selected if transparency is enabled.
@@ -37,7 +34,7 @@ angular.module("umbraco").controller("ds.SpectrumColorPicker.Controller",
         }
 
         assetsService.loadJs(
-            "~/App_Plugins/SpectrumColorPicker/lib/spectrum/spectrum.js"
+            "/App_Plugins/SpectrumColorPicker/lib/spectrum/spectrum.js"
         ).then(function () {
             $element.find("input").spectrum({
                 color: $scope.model.value,
