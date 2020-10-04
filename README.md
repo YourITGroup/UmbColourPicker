@@ -7,7 +7,7 @@ Nuget Package:
 Umbraco Package:
 [![Our Umbraco project page](https://img.shields.io/badge/our-umbraco-orange.svg)](https://our.umbraco.org/projects/backoffice-extensions/spectrum-colour-picker) 
 
-# Spectrum Colour Picker for Umbraco 7
+# Spectrum Colour Picker for Umbraco
 
 Creates an "unbound" colour picker based on the Spectrum jquery plugin. By unbound, we mean that colours aren't pre-defined, allowing the user to choose a color of their own.
 
