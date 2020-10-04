@@ -5,7 +5,7 @@
  * robert@koben.com.au
  * @robertjf72
  *
- * Version 0.0.7
+ * Version 1.0.0
  */
 angular.module("umbraco").controller("ds.SpectrumColorPicker.Controller",
     function spectrumColorPicker($scope, $timeout, assetsService, angularHelper, $element, localizationService) {
@@ -37,7 +37,7 @@ angular.module("umbraco").controller("ds.SpectrumColorPicker.Controller",
         }
 
         assetsService.loadJs(
-            "~/App_Plugins/SpectrumColorPicker/lib/spectrum/spectrum.js"
+            "/App_Plugins/SpectrumColorPicker/lib/spectrum/spectrum.js"
         ).then(function () {
             $element.find("input").spectrum({
                 color: $scope.model.value,
