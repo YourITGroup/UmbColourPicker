@@ -1,13 +1,6 @@
-# UmbColourPicker
 
-Nuget Package: 
-[![NuGet release](https://img.shields.io/nuget/v/SpectrumColourPicker.svg)](https://www.nuget.org/packages/SpectrumColourPicker/)
-[![NuGet release](https://img.shields.io/nuget/dt/SpectrumColourPicker.svg)](https://www.nuget.org/packages/SpectrumColourPicker/)
 
-Umbraco Package:
-[![Our Umbraco project page](https://img.shields.io/badge/our-umbraco-orange.svg)](https://our.umbraco.org/projects/backoffice-extensions/spectrum-colour-picker) 
-
-# Spectrum Colour Picker for Umbraco
+# Spectrum Colour Picker for Umbraco 9
 
 Creates an "unbound" colour picker based on the Spectrum jquery plugin. By unbound, we mean that colours aren't pre-defined, allowing the user to choose a color of their own.
 
@@ -21,7 +14,17 @@ If you want to customise the settings for Spectrum, see the file in
 
 and set the Spectrum options in the directive.
 
+# Installation
+
+Nuget Package: 
+[![NuGet release](https://img.shields.io/nuget/v/SpectrumColorPicker.Umbraco9.svg)](https://www.nuget.org/packages/SpectrumColorPicker.Umbraco9/)
+[![NuGet release](https://img.shields.io/nuget/dt/SpectrumColorPicker.Umbraco9.svg)](https://www.nuget.org/packages/SpectrumColorPicker.Umbraco9/)
+
+
 ## Updates:
+
+### Version 1.1.0:
+* No code changes - just the creation of an Umbraco 9 compatible NuGet package for easier installation.
 
 ### Version 1.0.0:
 * Stable Release!  Fixes typo with `preferredFormat` prevalue option which *may break previous version*

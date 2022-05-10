@@ -1,0 +1,27 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+        <SpectrumColorPickerContentFilesPath>$(MSBuildThisFileDirectory)..\content\App_Plugins\SpectrumColorPicker\**\*.*</SpectrumColorPickerContentFilesPath>
+    </PropertyGroup>
+
+    <Target Name="CopySpectrumColorPickerAssets" BeforeTargets="Build">
+        <ItemGroup>
+            <SpectrumColorPickerContentFiles Include="$(SpectrumColorPickerContentFilesPath)" />
+        </ItemGroup>
+        <Message Text="Copying SpectrumColorPicker files: $(SpectrumColorPickerContentFilesPath) - #@(SpectrumColorPickerContentFiles->Count()) files"  Importance="high" />
+        <Copy
+            SourceFiles="@(SpectrumColorPickerContentFiles)"
+            DestinationFiles="@(SpectrumColorPickerContentFiles->'$(MSBuildProjectDirectory)\App_Plugins\SpectrumColorPicker\%(RecursiveDir)%(Filename)%(Extension)')"
+            SkipUnchangedFiles="true" />
+
+    </Target>
+
+    <Target Name="ClearSpectrumColorPickerAssets" BeforeTargets="Clean">
+        <ItemGroup>
+            <SpectrumColorPickerDir Include="$(MSBuildProjectDirectory)\App_Plugins\SpectrumColorPicker\" />
+        </ItemGroup>
+        <Message Text="Clear old SpectrumColorPicker files"  Importance="high" />
+        <RemoveDir Directories="@(SpectrumColorPickerDir)"  />
+    </Target>
+
+</Project>

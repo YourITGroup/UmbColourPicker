@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5</TargetFramework>
+		<ContentTargetFolders>content</ContentTargetFolders>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+
+		<Authors>Robert Foster,HFloyd</Authors>
+		<Company>KØBEN digital &amp;amp; the Umbraco Community</Company>
+		<Description>
+			Creates an "unbound" color picker based on the Spectrum jquery plugin. By unbound, we mean that colors aren't pre-defined, allowing the user to choose a color of their own.
+			For more information about Spectrum, go here: http://bgrins.github.io/spectrum/
+			If you want to customise the settings for Spectrum, see the file in
+			/App_Plugins/SpectrumColorPicker/SpectrumColorPicker.controller.js
+			and set the Spectrum options in the directive.
+		</Description>
+		<Product>Spectrum Color Picker for Umbraco 9</Product>
+		<Copyright>Copyright 2018 Robert Foster</Copyright>
+		<PackageProjectUrl>https://github.com/hfloyd/UmbColourPicker</PackageProjectUrl>
+		<Version>1.1.1</Version>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/hfloyd/UmbColourPicker</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Umbraco Color Picker, Umbraco 9</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="App_Plugins\SpectrumColorPicker\**\*.*" />
+
+		<!--<None Include="build\**\*.*">
+			<Pack>True</Pack>
+			<PackagePath>buildTransitive</PackagePath>
+		</None>-->
+
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Remove="build/SpectrumColorPicker.Umbraco9.targets" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Remove="build\SpectrumColorPicker.Umbraco9.targets" />
+	</ItemGroup>
+
+	<!-- Include the targets file -->
+	<ItemGroup>
+		<Content Include="build/$(AssemblyName).targets" PackagePath="build\$(AssemblyName).targets" />
+	</ItemGroup>
+	<Import Project="..\Custom.targets" />
+
+	<ItemGroup>
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\da-DK.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\de-DE.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\en-GB.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\en-US.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\es-ES.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\fr-FR.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\he-IL.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\it-IT.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\ja-JP.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\nl-NL.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\pl-PL.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\pt-BR.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\ru-RU.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\sv-SE.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\tr-TR.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\zh-CN.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lang\zh-TW.xml" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lib\prevalue\preferredFormat.html" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lib\spectrum\spectrum.css" />
+		<None Remove="App_Plugins\SpectrumColorPicker\lib\spectrum\spectrum.js" />
+		<None Remove="App_Plugins\SpectrumColorPicker\package.manifest" />
+		<None Remove="App_Plugins\SpectrumColorPicker\SpectrumColorPicker.controller.js" />
+		<None Remove="App_Plugins\SpectrumColorPicker\SpectrumColorPicker.html" />
+	</ItemGroup>
+
+</Project>
