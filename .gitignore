@@ -18,3 +18,10 @@
 /Source/Package/6390AFFD-0056-49A5-9597-AA9B0FAA2FB6/spectrum.js
 /Source/Package/6390AFFD-0056-49A5-9597-AA9B0FAA2FB6/spectrum.css
 /Source/Package/6390AFFD-0056-49A5-9597-AA9B0FAA2FB6/package.manifest
+
+
+*.csproj.user
+/Source/Package/
+/Source/SpectrumColourPicker.Umbraco9/bin/
+/Source/SpectrumColourPicker.Umbraco9/obj/
+/*.txt
